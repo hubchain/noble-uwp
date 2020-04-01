@@ -1,6 +1,6 @@
 {
 	"name": "noble-uwp",
-	"version": "0.6.2",
+	"version": "0.6.3",
 	"description": "Noble (Node.js Bluetooth LE) with Windows 10 UWP bindings",
 	"main": "index.js",
 	"scripts": {
@@ -17,15 +17,16 @@
 		"bluetooth",
 		"BLE"
 	],
-	"author": "jasongin <jasongin@microsoft.com>",
+	"author": "Hubchain Technologies <developer@hubchain.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jasongin/noble-uwp/issues"
+		"url": "https://github.com/hubchain/noble-uwp/issues"
 	},
-	"homepage": "https://github.com/jasongin/noble-uwp#readme",
+	"homepage": "https://github.com/hubchain/noble-uwp#readme",
 	"dependencies": {
-		"debug": "^2.6.0",
-		"noble": "^1.7.0"
+		"debug": "^4.1.1",
+		"noble": "^1.9.1",
+		"node-pre-gyp": "^0.14.0"
 	},
 	"bundledDependencies": [
 		"node-pre-gyp"
