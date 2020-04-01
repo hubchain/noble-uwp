@@ -3,3 +3,4 @@ build/
 binding/
 *.winmd
 /.vscode
+.env
