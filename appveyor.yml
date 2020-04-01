@@ -31,6 +31,7 @@ install:
       }
 
 build_script:
+  - ps: $publish_binary = 1
   - ps: echo "publish $publish_binary"
   - ps: |
       $ErrorActionPreference = 'Continue'
