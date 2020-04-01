@@ -13601,7 +13601,7 @@ namespace NodeRT { namespace Windows { namespace Devices { namespace Bluetooth {
 
       GattLocalCharacteristic *wrapper = GattLocalCharacteristic::Unwrap<GattLocalCharacteristic>(info.This());
 
-      // (jasongin) Hand-patched generated code due to NodeRT bug for method overloads having different return types.
+      // (hubchain) Hand-patched generated code due to NodeRT bug for method overloads having different return types.
       ::Windows::Foundation::IAsyncOperation<::Windows::Foundation::Collections::IVectorView<::Windows::Devices::Bluetooth::GenericAttributeProfile::GattClientNotificationResult^>^>^ op1 = nullptr;
       ::Windows::Foundation::IAsyncOperation<::Windows::Devices::Bluetooth::GenericAttributeProfile::GattClientNotificationResult^>^ op2 = nullptr;
 

@@ -25,10 +25,8 @@ functionality in Windows 10.
 | Windows 10, Build 14393 | Anniversary Update (Redstone 1) | 1607 | [npmjs.com/org/nodert-win10-au](https://www.npmjs.com/org/nodert-win10-au) |
 | Windows 10, Build 10586 | Threshold 2 | 1511 | [npmjs.com/~nodert-win10](https://www.npmjs.com/~nodert-win10) |
 
-```
-[Windows 7, 8, 10 SDK and emulator archive](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/).
-```
-
+## System Requirements
+ * [Windows 7, 8, 10 SDK and emulator archive](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/).
 
 ## Usage
 Simply require `noble-uwp` instead of `noble`:
